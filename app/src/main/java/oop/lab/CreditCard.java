@@ -1,7 +1,7 @@
 package oop.lab;
 
 public class CreditCard extends Card {
-    public CreditCard(string cardNumber, String customerName){
+    public CreditCard(String cardNumber, String customerName){
         super(cardNumber,customerName);
     }
 

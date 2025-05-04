@@ -15,12 +15,12 @@ public class SavingsAccount extends BankAccount implements OnlineService {
 
     @Override
     public void transferFunds(double ammount , String targetAccount){
-        withdraw(account);
+        withdraw(ammount);
     }
 
     @Override
     public void payBills(double ammount){
-        withdraw(account);
+        withdraw(ammount);
     }
     
 }
