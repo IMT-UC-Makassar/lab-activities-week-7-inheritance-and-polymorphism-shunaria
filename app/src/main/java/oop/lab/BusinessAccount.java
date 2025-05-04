@@ -3,8 +3,8 @@ package oop.lab;
 public class BusinessAccount extends BankAccount implements LoanService, OnlineService{
     private String loanStatus;
 
-    public BusinessAccount(String accountNumber, String customerName, double balance) {
-        super(accountNumber, customerName, balance);
+    public BusinessAccount(String accountNumber, String accountHolder, double balance) {
+        super(accountNumber, accountHolder, balance);
         this.loanStatus = "None";
     }
 
